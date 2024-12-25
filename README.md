@@ -49,6 +49,10 @@ $ python3 -m venv venv && source venv/bin/activate && pip install -r requirement
   <img src="./.github/img/insominia.png" width="400px" alt="Tela do insominia listando todas as tarefas" />
 
   <img src="./.github/img/vscode.png" width="400px" alt="tela do vscode com a função de cadastrar e listar todas as tarefas" />
+
+  <img src="./.github/img/image.png" width="400px" alt="Tela do vscode de teste todas as tarefas" />
+
+  <img src="./.github/img/teste.png" width="400px" alt="Tela com retorno de todas as funções de teste" />
 </p>
 
 # 🧑🏻‍💻 Autor
