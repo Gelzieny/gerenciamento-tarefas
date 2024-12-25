@@ -43,7 +43,7 @@ $ python -m venv venv && venv\Scripts\activate && pip install -r requirements.tx
 $ python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
 ````
 
-## 🎨 Execução do projeto
+### Execução do projeto
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img src="./.github/img/insominia.png" width="400px" alt="Tela do insominia listando todas as tarefas" />
