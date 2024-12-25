@@ -17,9 +17,8 @@ def create_task():
 
   tasks.append(new_task)
 
-  return jsonify({
-    "mensagem": "Nova tarefa cadatra com sucesso"
-  })
+  return jsonify({"id": new_task.id, "message": "Nova tarefa cadastrada com sucesso"}), 200
+
 
 @app.route('/tasks', methods=['GET'])
 def read_task():
