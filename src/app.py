@@ -17,11 +17,20 @@ def create_task():
 
   tasks.append(new_task)
 
-  print(tasks)
   return jsonify({
     "mensagem": "Nova tarefa cadatra com sucesso"
   })
 
+@app.route('/tasks', methods=['GET'])
+def read_task():
+  task_list = [task.to_dict() for task in tasks]
+
+  output = {
+    "tasks": task_list,
+    "total_tasks": 1
+  }
+
+  return jsonify(output)
 
 if __name__ == "__main__":
   app.run(debug=True)
